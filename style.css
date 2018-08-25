@@ -1,0 +1,225 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: helvetica;
+  background: orange url(img/bg/bg-island.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo {
+  display: block;
+  width: 220px;
+  height: 64px;
+}
+.logo__img {
+  width: 100%;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 70%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nav__link {
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.nav__link span {
+  color: #707070;
+  font-size: 14px;
+}
+.active {
+  color: #299D75;
+}
+.nav__link:hover {
+  color: #299D75;
+}
+.bron-btn {
+  font-size: 14px;
+  margin-left: 60px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: table;
+  background: #299D75;
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+  width: 133px;
+  height: 55px;
+}
+.bron-btn span {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  text-transform: capitalize;
+}
+.bron-btn:hover {
+  background: rgba(41, 157, 117, 0.7);
+}
+.header-img-wrap {
+  width: 100%;
+  height: 500px;
+  background: #000;
+  overflow: hidden;
+}
+.header__img {
+  height: 120%;
+}
+.content {
+  background: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.section-title {
+  margin-left: 55px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+}
+.card {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.card__img {
+  min-width: 300px;
+  min-height: 200px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin-right: 20px;
+}
+.card__content {
+  padding-right: 10px;
+}
+.card__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.card__title-text {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #299D75;
+}
+.bed-number {
+  margin-top: 20px;
+}
+.bed-number__icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+}
+.card__text {
+  color: #707070;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.card-button {
+  padding: 10px;
+  background: #299D75;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+a.card-tag__tag-link {
+  color: #707070;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 5px;
+}
+.footer {
+  background: #299D75;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.maps {
+  width: 218px;
+  height: 138px;
+  background: #fff;
+}
+.contacts {
+  margin-left: -200px;
+}
+.contacts__title-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contacts__desc {
+  color: #DEDCDC;
+  font-size: 14px;
+}
+.sotseti {
+  height: 100px;
+}
+.sotseti__link {
+  display: inline-block;
+  margin-right: 15px;
+  padding-top: 20px;
+}
+.sotseti__icon {
+  width: 39px;
+  height: 39px;
+}
+
+/*# sourceMappingURL=maps/style.css.map */
